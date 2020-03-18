@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <style>
+    carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+    </style>
+  <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAw0RHCQfJp39ggip3ueXvaNFlqYBRLkQ">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona - Rio Grande do Norte </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<body>
+  <h2>Casos em Tempo Real</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Casos Suspeitos no estado</th>
+        <th scope="col">Casos Confirmados</th>
+        <th scope="col">Casos Descartados</th>
+        <th scope="col">Óbitos</th>
+
+
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">72</th>
+          <td colspan="1">1</td>
+          <td colspan="1">21</td>
+          <td colspan="1">0</td>
+          
+          
+          
+        </tr>
+        <tr>
+         
+          
+          
+          
+        </tr>
+
+      </tbody>
+
+    </table>
+  </br>
+
+    <h2> Casos COVID19 no Rio Grande do Norte Por região </h2>
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Lugares com casos suspeitos</th>
+            
+            <th scope="col">Quantidade de Casos Suspeitos</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Natal</th>
+            <th scope="row">20</th>
+            
+            
+          </tr>
+          <tr>
+            <th scope="row">Parnamirim</th>
+            <td>5</td>
+            
+            
+          </tr>
+          <tr>
+            <th scope="row">Mossoró</th>
+            <td colspan="2">3</td>
+            
+          </tr>
+          <th scope="row">Nísia Floresta</th>
+            <td colspan="2">2</td>
+          <tr>
+            <th scope="row">Tibau do Sul</th>
+            <td colspan="2">1</td>
+          </tr>
+          <tr>
+            <th scope="row">Ceará-Mirim</th>
+            <td colspan="2">1</td>
+          </tr>
+          <tr>
+            <th scope="row">Frutuso Gomes</th>
+            <td colspan="2">1</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="container-fluid"> <b>O número foi atualizado pela Secretaria Estadual de Saúde nesta terça-feira (17) e representa um aumento em relação ao último boletim divulgado pela pasta na sexta-feira (13), quando havia 17 casos suspeitos no estado. Os dados são de até às 20h desta segunda-feira (16).</b><br>      
+    </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="imagem2.png" class="d-block w-100" alt="...">
+        </div>
+        
+        <div class="carousel-item">
+          <img src="imagem3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p>
+      
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+        Funcionamento de Serviços e Empresas
+      </button>
+    </p>
+    <div class="collapse" id="collapse2">
+      <div class="card card-body">
+        <ul class="list-group">
+          <li class="list-group-item active">Universidades</li>
+          <li class="list-group-item">UNP - Tempo Indeterminado</li>
+          <li class="list-group-item">UFRN - Tempo Indeterminado</li>
+          <li class="list-group-item">Uninassau - Previsão de Retorno 30/03/2020</li>
+          <li class="list-group-item">UNIRN - Tempo Indeterminado</li>
+          <li class="list-group-item">IFRN - Tempo Indeterminado</li>
+          <li class="list-group-item">UERN - Tempo Indeterminado</li>
+        </ul>
+      </div>
+      <div class="collapse" id="collapse2">
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item active">Serviços</li>
+            <li class="list-group-item">Supermercados - Em Atividade</li>
+            <li class="list-group-item">CAERN - Atedimento Presencial Reduzido</li>
+            <li class="list-group-item">DETRAN - Entregas de CNH e CRVL suspensas por 30 dias</li>
+            <li class="list-group-item">Linhas de Ônibus - Em atividade</li>
+            <li class="list-group-item">Ônibus Circular UFRN - Suspenso</li>
+            <li class="list-group-item">Shoppings - Horário de Funcionamento Reduzido</li>
+            <li class="list-group-item">Centrais do Cidadão - Fichas reduzidas e Mudanças de Horário</li>
+          </ul>
+        </div>
+    </div>
+
+
+
+
+          
+      </div>
+
+      <p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Hospitais com Atedimento ao COVID19
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item active">Hospitais</li>
+            <li class="list-group-item">Giselda Trigueiro/Natal - 135 Leitos</li>
+            <li class="list-group-item">Maria Alice Fernandes/Natal - 85 Leitos</li>
+            <li class="list-group-item">José Pedro Bezerra/Natal - 227 Leitos e 10 de UTI</li>
+            <li class="list-group-item">Rafael Fernandes/Mossóro - 39 Leitos </li>
+            <li class="list-group-item">Tarcísio Maia/Mossoró - 147 Leitos e 9 UTI </li>
+            <li class="list-group-item">Dr.Mariano Coelho/Currais Novos - 108 Leitos e 10 UTI </li>
+            <li class="list-group-item">Hospital Cleodon Carlos Andrade/Pau dos Ferros - 69 Leitos e 10 UTI </li>
+            <li class="list-group-item">Telecila Freitas Fontes/Caicó - 93 Leitos e 10 UTI </li>
+            <li class="list-group-item">Deoclécio Marques/Parnamirim - 86 Leitos e 10 UTI </li>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
