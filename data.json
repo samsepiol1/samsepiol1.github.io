@@ -1,0 +1,67 @@
+[
+{
+    "date": "2020-03-18",
+    "uid": "1",
+    "state": "Rio Grande do Norte",
+    "location":"Natal",
+    "cases": 1,
+    "deaths": 0,
+    "suspects": 47,
+    "refuses": 19
+  },
+  {
+    "date": "2020-03-18",
+    "uid": "2",
+    "state": "Rio Grande do Norte",
+    "location":"Parnamirim",
+    "cases": 0,
+    "deaths": 0,
+    "suspects": 13,
+    "refuses":8
+  },
+
+  {
+    "date": "2020-03-18T20:00:00.000Z",
+    "uid": "3",
+    "state": "Rio Grande do Norte",
+    "location":"Mossoró",
+    "cases": 0,
+    "deaths": 0,
+    "suspects": 5,
+    "refuses":3
+  },
+  {
+  "date": "2020-03-18",
+    "uid": "4",
+    "state": "Rio Grande do Norte",
+    "location":"Nisia Floresta",
+    "cases": 0,
+    "deaths": 0,
+    "suspects": 2,
+    "refuses":0
+},
+{
+    "date": "2020-03-18",
+      "uid": "5",
+      "state": "Rio Grande do Norte",
+      "location":"Ceará-Mirim",
+      "cases": 0,
+      "deaths": 0,
+      "suspects": 1,
+      "refuses":0
+  },
+  {
+    "date": "2020-03-18",
+      "uid": "6",
+      "state": "Rio Grande do Norte",
+      "location":"Pendências",
+      "cases": 0,
+      "deaths": 0,
+      "suspects": 1,
+      "refuses":0
+  }
+]
+
+
+
+
